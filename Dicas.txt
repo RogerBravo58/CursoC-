@@ -1,0 +1,14 @@
+O terminal do seu sistema operacional
+Windows -> https://blog.cod3r.com.br/terminal-no-windows/
+
+Mudar fonte e cores = FERRAMENTAS -> OPCOES -> AMBIENTE -> FONTES E CORES
+
+Editar Avançado
+CTRL + KD - formata o codigo
+CTRL + KC - comenta linhas de codigo marcadas
+CTRL + KU - descomenta linhas de codigo marcadas
+CTRL + D  - duplica a linha
+CTRL + space bar - Code Complete
+CTRL + F5 - executar codigo
+cw + tab + tab - completa Console.WriteLine
+
