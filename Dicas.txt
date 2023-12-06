@@ -12,3 +12,7 @@ CTRL + space bar - Code Complete
 CTRL + F5 - executar codigo
 cw + tab + tab - completa Console.WriteLine
 
+FECHAR UM IF COM ";" ERRO DE LOGICA
+If (nota >= 9.0 && bomComportamento); {
+VAI EXECUTAR SE VERDADEIRO OU FALSO
+
