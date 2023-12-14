@@ -4,6 +4,12 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
+using CursoCSharp.API;
+using CursoCSharp.TopicosAvancados;
 
 namespace CursoCSharp {
     class Program {
@@ -51,6 +57,59 @@ namespace CursoCSharp {
                 {"Props - Classes e Métodos", Props.Executar},
                 {"Readonly - Classes e Métodos", Readonly.Executar},
                 {"Exemplo Enum - Classes e Métodos", ExemploEnum.Executar},
+                {"Exemplo Struct - Classes e Métodos", ExemploStruct.Executar},
+                {"Struct Vs Classe - Classes e Métodos", StructVsClasse.Executar},
+                {"Valor Vs Referencia - Classes e Métodos", ValorVsReferencia.Executar},
+                {"Parametros Por Referencia - Classes e Métodos", ParametrosPorReferencia.Executar},
+                {"Parametro Com Valor Padrao - Classes e Métodos", ParametroPadrao.Executar},
+
+                //COLEÇÕES
+                {"Array - Coleções", Colecoes.Array.Executar},
+                {"List - Coleções", ColecoesList.Executar},
+                {"ArrayList - Coleções", ColecoesArrayList.Executar},
+                {"Set - Coleções", ColecoesSet.Executar},
+                {"Queue - Coleções", ColecoesQueue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", ColecoesStack.Executar},
+                {"Dictionary - Coleções", ColecoesDictionary.Executar},
+
+                //ORIENTAÇÃO OBJETO
+                {"Heranca - OO", Heranca.Executar},
+                {"Construtor This - OO", ConstrutorThis.Executar},
+                {"Encapsulamento - OO", OO.Encapsulamento.Executar},
+                {"Polimorfismo - OO", Polimorfismo.Executar},
+                {"Abstract - OO", Abstract.Executar},
+                {"Interface - OO", Interface.Executar},
+                {"Sealed - OO", Sealed.Executar},
+
+                 //Metodos e Funcoes
+                 {"Exemplo Lambda - Metodos e Funcoes", ExemploLambda.Executar},
+                 {"Lambdas Como Delegates - Metodos e Funcoes", LambdasDelegate.Executar},
+                 {"Usando Delegates - Metodos e Funcoes", UsandoDelegates.Executar},
+                 {"Delegate Com Função Anonima - Metodos e Funcoes", DelegateFunAnonima.Executar},
+                 {"Delegate Como Parametro - Metodos e Funcoes", DelegateComoParametro.Executar},
+                 {"Metodos De Extensao - Metodos e Funcoes", MetodosDeExtensao.Executar},
+                 
+                 //Exceções
+                 {"Primeira Exceçao - Exceções", PrimeiraExcecao.Executar},
+                 {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
+                 
+                 //API
+                 {"Primeiro Arquivo - Usando API", PrimeiroArquivo.Executar},
+                 {"Lendo Arquivos - Usando API", LendoArquivos.Executar},
+                 {"Exemplo File Info - Usando API", ExemploFileInfo.Executar},
+                 {"Diretorios - Usando API", Diretorios.Executar},
+                 {"Exemplo Directory Info - Usando API", ExemploDirectoryInfo.Executar},
+                 {"Exemplo Path - Usando API", ExemploPath.Executar},
+                 {"Exemplo DateTime - Usando API", ExemploDateTime.Executar},
+                 {"Exemplo TimeSpan - Usando API", ExemploTimeSpan.Executar},
+
+                 //Tópicos Avançados
+                 {"LINQ #01 - Tópicos Avançados", LINQ1.Executar},
+                 {"LINQ #02 - Tópicos Avançados", LINQ2.Executar},
+                 {"Nullables - Tópicos Avançados", Nullables.Executar},
+                 {"Dynamics - Tópicos Avançados", Dynamics.Executar},
+                 {"Genericos - Tópicos Avançados", Genericos.Executar},
             });
 
             central.SelecionarEExecutar();

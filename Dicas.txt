@@ -16,3 +16,5 @@ FECHAR UM IF COM ";" ERRO DE LOGICA
 If (nota >= 9.0 && bomComportamento); {
 VAI EXECUTAR SE VERDADEIRO OU FALSO
 
+public - outros namespaces enxergam - função visivel
+static - não precisa criar objeto - diretamente associada a classe
